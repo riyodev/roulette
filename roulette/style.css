@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+
+button {
+    border: none;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    transform: scale(1.05);
+    
+}
+
+button:active {
+    transform: rotate(-60deg);
+}
+
