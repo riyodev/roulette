@@ -5,7 +5,6 @@ function uptownfunc()
       const audio = new Audio('ice.mp3');
       audio.play();
     } 
-
   }
   else {
     {
